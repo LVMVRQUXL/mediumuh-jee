@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: local
+    url: jdbc:postgresql://localhost:5432/mediumuh-db
+    username: local
+
+springdoc:
+  api-docs:
+    path: /api-docs
