@@ -1,4 +1,4 @@
-package fr.esgi.jee.mediumuh.infrastructure
+package fr.esgi.jee.mediumuh.infrastructure.author
 
 import javax.persistence.*
 
