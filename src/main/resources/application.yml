@@ -1,8 +1,14 @@
 spring:
   datasource:
-    password: local
     url: jdbc:postgresql://localhost:5432/mediumuh-db
     username: local
+    password: local
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      use-new-id-generator-mapping: true
+      ddl-auto: update
 
 springdoc:
   api-docs:
